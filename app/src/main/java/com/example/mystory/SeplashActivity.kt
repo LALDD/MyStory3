@@ -10,14 +10,12 @@ class SeplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_seplash)
-
-        moveToLoginScreen()
+        moveToLoginScreen()//Call function
     }
     private fun moveToLoginScreen(){
-        //This code for delay in order to allow enough time to the user to see
+        //looper delay 3000 milli second to allow enough time for loading
         Handler(Looper.myLooper()!!).postDelayed({
-            //destroy from memory
-            finish()
+            finish()//End,release from memory
             val i=Intent(this,LoginActivity2::class.java)
             startActivity(i)
         },3000)

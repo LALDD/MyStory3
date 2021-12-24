@@ -9,5 +9,28 @@
     <string name="logout">Logout</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="this_is_title">This is title</string>
+    <string name="this_is_subtilte">This is subtilte</string>
+
+    <string name="enter_title">Enter Title here</string>
+    <string name="enter_sub_title">Enter SubTitle</string>
+    <string name="enter_description">Enter Description </string>
+    <string name="add_story"> Add Story</string>
+
+    <string name="story1_title1"> stroy 1 </string>
+    <string name="story1_subtitle">Stroy1 subtitle</string>
+    <string name="story1_description"> story1 description </string>
+
+    <string name="story2_title"> stroy 2 </string>
+    <string name="story2_subtitle">Stroy2 subtitle</string>
+    <string name="story2_description"> story2 description </string>
+
+    <string name="story3_title"> stroy 3 </string>
+    <string name="story3_subtitle">Stroy3 subtitle</string>
+    <string name="story3_description"> story3 description </string>
+
+    <string name="story4_title"> stroy 4 </string>
+    <string name="story4_subtitle">Stroy4 subtitle</string>
+    <string name="story4_description"> story4 description </string>
 
 </resources>

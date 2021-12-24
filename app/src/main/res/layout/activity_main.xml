@@ -5,26 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer"
+    android:background="#DBDBDB"
+    android:layoutDirection="rtl"
     tools:context=".MainActivity">
-         <LinearLayout
+    <!-- Create constrain layout to organize the view elements-->
+         <androidx.constraintlayout.widget.ConstraintLayout
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content">
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layoutDirection="rtl">
+
              <androidx.appcompat.widget.Toolbar
                  android:id="@+id/toolbar"
+                 android:theme="@style/ThemeOverlay.AppCompat.Dark"
                  android:layout_width="match_parent"
                  android:layout_height="?attr/actionBarSize"
-                 android:background="#2196F3"/>
-         </LinearLayout>
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintTop_toTopOf="parent"
+                 android:background="#2196F3"
+                 android:layoutDirection="rtl"/>
+
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/storiesRecyclerview"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:orientation="vertical"
+                 android:layoutDirection="rtl"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                 app:layout_constraintBaseline_toBottomOf="parent"
+                 tools:listitem="@layout/custom_layout"
+                 tools:itemCount="3"
+                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddStory"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="16dp"
+             android:src="@drawable/ic_baseline_add_24"
+             app:tint="@color/white"
+             android:backgroundTint="@color/teal_700"/>
+         </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/menu_drawer"
         app:headerLayout="@layout/nav_header"
+        android:layoutDirection="rtl"
         android:layout_gravity="start"/>
 
     <TextView
         android:id="@+id/Emailview"
+        android:textDirection="rtl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

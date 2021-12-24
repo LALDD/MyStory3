@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ٌقصتي</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">الدخول</string>
+    <string name="i_accept_terms_and_conditions">أقبل الشروط والأحكام</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="home">الرئيسية</string>
+    <string name="logout">الخروج</string>
+    <string name="enter_title">أضف العنوان الرئيسي</string>
+    <string name="enter_sub_title">أضف العنوان الفرعي</string>
+    <string name="enter_description">اكتب القصة من فضلك ....هنا </string>
+    <string name="open">فتح</string>
+    <string name="close">إغلاق</string>
+    <string name="add_story"> إضافة قصة</string>
+    <string name="this_is_title"> العنوان الرئيسي</string>
+    <string name="this_is_subtilte">العنوان الفرعي</string>
+
+    <string name="story1_title1">التهيئة </string>
+    <string name="story1_subtitle">الأسبوع 1و2 </string>
+    <string name="story1_description"> كانت الأسابيع الأولى في معسكر طويق 1000 من أمتع الاسابيع، تم تهيئتنا لتعلم أساسيات لغه كوتلن، تعرفنا على أهم المفاهيم التي اعتمدنا عليها لاحقا،أذكر منها: الجمل الشرطية و مدى المتغيرات، و أنواع المتغيرات، وحلقات التكرار،والبرمجة الكائنية، وتبين لنا مدى سهولة التعامل مع لغه الكوتلن التي تتميز بحل جذري لمشكلة معروفة تسمى (خطأ المليار دولار) وهي الإشارات الفارغه.  </string>
+
+    <string name="story2_title">بيئة تطوير أندرويد</string>
+    <string name="story2_subtitle">الأسبوع 3و4و5 </string>
+    <string name="story2_description"> تعرفناعلى بيئة عمل اندرويد وقمنا بعمل تمارين لتصميم واجهات المستخدم وقمنا بانشاءمحاكي لكي نختبر صحة تطبيقنا. تعلمنا إعادة التدوير و التنقل بين الواجهات، التنقل السفلي، الدوال والأستنثاءات والرسائل المؤقته. تدربنا على رفع المشروع باستخدام القيت هب ليتسى لنا مشاركه المشروع مع أعضاء الفريق، وأيضا امكانية الوصول للمشروع عن بعد.  </string>
+
+    <string name="story3_title">المشروع النهائي</string>
+    <string name="story3_subtitle">آخر الأسابيع</string>
+    <string name="story3_description"> الوقت يمضي سريعا، في هذه الأسابيع الأخيرة بدأنا بالمشروع النهائي قمنا بتجهيز واجهة تسجيل الدخول، والواجهه الرئيسية وعرضنا القصص وتفاصيل القصة ثم تعرفنا على قوقل بلي من أجل التجهيز للمتطلبات الخاصة بنشر التطبيق. </string>
+
+    <string name="story4_title">معسكر طويق 1000</string>
+    <string name="story4_subtitle">كوتلن</string>
+    <string name="story4_description">معسكرة طويق 1000 كان من أروع الفرص اللي مرت علي، شكرا لكم، شكرا لتنظيمكم و اختياركم لمدرب أكثر من رائع، والشكر ايضا موصول لكل المتعاونين معاكم وأكيد زملائي وزميلاتي، قضينا وقت مفيد تعلمنا واستفدنا.</string>
+
+</resources>

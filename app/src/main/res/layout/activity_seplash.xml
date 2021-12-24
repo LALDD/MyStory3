@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layoutDirection="rtl"
     tools:context=".SeplashActivity">
         <TextView
             android:id="@+id/textView"
@@ -11,7 +12,9 @@
             android:layout_height="wrap_content"
             android:text="@string/app_name"
             android:textStyle="bold"
-            android:textSize="22sp"
+            android:textDirection="locale"
+            android:textSize="50sp"
+            android:textColor="@color/teal_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -22,6 +25,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:layout_marginTop="8dp" />
+            android:layout_marginTop="8dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:indeterminate="true"
+            android:progress="1"
+            android:minHeight="50dp"
+            android:minWidth="250dp"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
